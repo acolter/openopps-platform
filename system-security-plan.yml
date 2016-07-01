@@ -1,8 +1,9 @@
 ---
 name: Open Opportunities
 uniqueID: OCSIT-20140904-20150721-03
-version: 0.7.4 ## This `authority-to-operate` branch was rebased to include latest code from `0.10.4`. 
-## Will talk with Jez about merging this with the Master branch
+## NOTE: This `system-security-plan.yml` file needs to be updated every time there is a release or any infrastructure changes 
+## to the platform that would invalidate any of the diagrams referenced in the SSP.
+version: 0.7.4 ## The `authority-to-operate` branch was rebased to include latest code from `0.10.4`. 
 phase: beta
 information-types:
 - D26 Civilian Operations
@@ -38,11 +39,11 @@ staff:
         unit: 18F
         email: devops@gsa.gov
     technical-lead:
-        name: Sarah Allen ## Joseph Castle with GSA IT? Verify with Micah or Jez.
-        title: Engineer
+        name: Lisa Nelson
+        title: Open Opportunities Program Manager
         org: General Services Administration
-        unit: 18F
-        email: sarah.allen@gsa.gov ## tbd
+        unit: OCSIT
+        email: lisa.nelson@gsa.gov
 leveraged-authorizations: 
 - https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/
 purpose: https://github.com/18F/openopps-platform/blob/dev/README.md 
